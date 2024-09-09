@@ -1,0 +1,81 @@
+/* Basic Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #000;
+    color: #e8e0e0;
+}
+
+header h1{
+    
+    color: #f6f3f3;
+    padding: 1.3rem;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 4rem;
+    font-size: large;
+    padding-left: 180px;
+    padding-right: 200px;
+}
+
+.car-gallery {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 6rem;
+    justify-content: center;
+    
+}
+
+.car-gallery a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #eae0e0;
+    
+}
+
+.car-gallery img {
+    max-width: 100%;
+    height: auto;
+    display:flex;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.851);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+
+}
+.car-gallery img:hover {
+    transform: scale(1.2); /* Increase the size to 120% on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add a shadow effect to enhance the pop */
+}
+
+.car-gallery span {
+    display: block;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #f9f2f2;
+}
